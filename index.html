@@ -29,8 +29,8 @@
           colors: {
             clifford: '#da373d',
             'nav-primary': 'rgb(23, 152, 0)',
-            'bike-primary-bg': 'rgba(231, 111, 81, 0.1)',
-            'header-bg': 'rgba(239,235,227)',
+           
+            'card-bg': 'rgba(239,235,227)',
           }
         }
       }
@@ -110,17 +110,69 @@
 <!-- main style start -->
     <main>
 <!-- card section start -->
-        <section>
-            <h2>Services</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="" alt="">
-                    <h2></h2>
-                    <p>v</p>
-                </div>
-            </div>
-        </section>
+        <section class="lg:mx-32">
+             <h2 class="text-5xl text-nav-primary ml-8">Services</h2>
+           
 
+        
+            <div class="cards  grid lg:grid-cols-3 gap-6 p-6">
+
+
+              <!-- card1 -->
+            <div class="card bg-card-bg  shadow-xl p-3">
+              <div class="w-36 h-36 bg-white rounded-full m-auto"></div>
+              <figure>
+                <img class="absolute top-9"
+                  src="c2-assets/service.png" />
+              </figure>
+              <div class="card-body space-y-5 text-center">
+                <h2 class="text-2xl font-bold">24/7 Services </h2>
+                <p class="text-gray-500">Day or night, Natural’s Platter offers fresh, flavorful, and nutritious meals 24/7 to satisfy your cravings anytime!</p>
+              
+               
+              </div>
+            </div>
+           
+
+            <!-- card2 -->
+            <div class="card bg-card-bg  shadow-xl p-3">
+              <div class="w-36 h-36 bg-white rounded-full m-auto"></div>
+              <figure>
+                <img class="absolute top-9"
+                  src="c2-assets/delivery.png" />
+              </figure>
+              <div class="card-body space-y-5 text-center">
+                <h2 class="text-2xl font-bold">Fast Delivery</h2>
+                <p class="text-gray-500">Fast delivery, fresh flavors—enjoy quick and reliable service whenever hunger strikes. Your favorite meals, delivered fast!</p>
+              
+               
+              </div>
+            </div>
+
+
+
+            <!-- card3 -->
+            <div class="card bg-card-bg  shadow-xl p-3">
+              <div class="w-36 h-36 bg-white rounded-full m-auto"></div>
+              <figure>
+                <img class="absolute top-9"
+                  src="c2-assets/healthy.png" />
+              </figure>
+              <div class="card-body space-y-5 text-center">
+                <h2 class="text-2xl font-bold">Healthy Products </h2>
+                <p class="text-gray-500">Stay healthy and energized with our range of fresh, nutritious products, perfect for supporting your balanced lifestyle.</p>
+              
+               
+              </div>
+            </div>
+
+
+
+           </div>
+
+
+        </section>
+       
     </main>
     <footer>
 
